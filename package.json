@@ -1,0 +1,14 @@
+{
+  "name": "boa-sdk",
+  "version": "1.0.0",
+  "description": "JS SDK for BOA",
+  "repository": "https://github.com/bosagora/bosagora-sdk",
+  "author": "BOSagora Foundation",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
