@@ -27,9 +27,9 @@ export class ClientEstimationMethods extends ClientCore implements IClientEstima
             throw new UnsupportedNetworkError(networkName);
         }
 
-        const factoryInstance: ERC20 = ERC20__factory.connect(this.web3.getTokenSwapContractAddress(), signer);
+        const factoryInstance: ERC20 = ERC20__factory.connect(this.web3.getOldBOATokenContractAddress(), signer);
         const gasEstimation = await factoryInstance.estimateGas.approve(
-            this.web3.getOldBOATokenContractAddress(),
+            this.web3.getTokenSwapContractAddress(),
             amount
         );
         return this.web3.getApproximateGasFee(gasEstimation.toBigInt());
