@@ -2649,10 +2649,10 @@ bn.js@^5.2.1:
   resolved "https://registry.npmjs.org/bn.js/-/bn.js-5.2.1.tgz"
   integrity sha512-eXRvHzWyYPBuB4NBy0cmYQjGitUrtqwbvlzP3G6VFnNRbsZQIxQ10PbKKHt8gZ/HW/D/747aDl+QkDqg3KQLMQ==
 
-boa-contracts-lib@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/boa-contracts-lib/-/boa-contracts-lib-1.0.5.tgz#9712960b3f1980bba867d4571db7c9cdae0d0d7c"
-  integrity sha512-w2t2mPlNqk/9Yhu5jK+dPBSsPjZNsfTjEAjHDKKO4FqKrOEdEuL4MuxvEztqGLuiYiZwsayWJRGvwQBXPthv2g==
+boa-contracts-lib@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/boa-contracts-lib/-/boa-contracts-lib-1.0.7.tgz#83b5d150660a0629fb0139dc9e8b3b29401dc2c1"
+  integrity sha512-bppI5GT5/9JvJEuOxekFeuahIHVxJ6Rkyed2QU9Ix8idXbr98Op930ifY5o50eLQnYXD0dMqKGE0WQceuaR4Xw==
   dependencies:
     ethers "5.7.0"
 
